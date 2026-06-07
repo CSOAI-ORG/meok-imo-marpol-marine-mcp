@@ -1,0 +1,95 @@
+{
+  "name": "meok-imo-marpol-marine-mcp",
+  "description": "IMO MARPOL + marine fuel + container ship compliance MCP. MARPOL Annex VI, EU ETS maritime, CII",
+  "url": "https://proofof.ai/scorecard/meok-imo-marpol-marine-mcp.html",
+  "version": "1.0.0",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "check_marpol_annex_compliance",
+      "name": "Check Marpol Annex Compliance",
+      "description": "check_marpol_annex_compliance via meok-imo-marpol-marine-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_eu_ets_maritime",
+      "name": "Check Eu Ets Maritime",
+      "description": "check_eu_ets_maritime via meok-imo-marpol-marine-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_imo_ccc_carbon_intensity",
+      "name": "Check Imo Ccc Carbon Intensity",
+      "description": "check_imo_ccc_carbon_intensity via meok-imo-marpol-marine-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_eexi_efficiency",
+      "name": "Check Eexi Efficiency",
+      "description": "check_eexi_efficiency via meok-imo-marpol-marine-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_imdg_code_dangerous_goods",
+      "name": "Check Imdg Code Dangerous Goods",
+      "description": "check_imdg_code_dangerous_goods via meok-imo-marpol-marine-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_bunker_compliance",
+      "name": "Check Bunker Compliance",
+      "description": "check_bunker_compliance via meok-imo-marpol-marine-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_ballast_water_management",
+      "name": "Check Ballast Water Management",
+      "description": "check_ballast_water_management via meok-imo-marpol-marine-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "prepare_psc_inspection_pack",
+      "name": "Prepare Psc Inspection Pack",
+      "description": "prepare_psc_inspection_pack via meok-imo-marpol-marine-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

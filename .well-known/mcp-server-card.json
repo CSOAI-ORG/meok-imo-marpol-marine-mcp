@@ -1,0 +1,37 @@
+{
+  "name": "meok-imo-marpol-marine-mcp",
+  "title": "Meok Imo Marpol Marine Mcp",
+  "description": "IMO MARPOL + marine fuel + container ship compliance MCP. MARPOL Annex VI, EU ETS maritime, CII, EEXI, IMDG, bunker fuel, ballast water, Port State Control. For short-sea operators, RoRo car carriers, Channel freight, container shipping. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "check_marpol_annex_compliance"
+    },
+    {
+      "name": "check_eu_ets_maritime"
+    },
+    {
+      "name": "check_imo_ccc_carbon_intensity"
+    },
+    {
+      "name": "check_eexi_efficiency"
+    },
+    {
+      "name": "check_imdg_code_dangerous_goods"
+    },
+    {
+      "name": "check_bunker_compliance"
+    },
+    {
+      "name": "check_ballast_water_management"
+    },
+    {
+      "name": "prepare_psc_inspection_pack"
+    }
+  ]
+}

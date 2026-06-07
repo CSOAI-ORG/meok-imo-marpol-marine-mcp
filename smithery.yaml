@@ -1,0 +1,34 @@
+name: meok-imo-marpol-marine-mcp
+description: 'IMO MARPOL + marine fuel + container ship compliance MCP. MARPOL Annex VI, EU ETS maritime, CII'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-imo-marpol-marine-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: check_marpol_annex_compliance
+  description: check marpol annex compliance
+- name: check_eu_ets_maritime
+  description: check eu ets maritime
+- name: check_imo_ccc_carbon_intensity
+  description: check imo ccc carbon intensity
+- name: check_eexi_efficiency
+  description: check eexi efficiency
+- name: check_imdg_code_dangerous_goods
+  description: check imdg code dangerous goods
+- name: check_bunker_compliance
+  description: check bunker compliance
+- name: check_ballast_water_management
+  description: check ballast water management
+- name: prepare_psc_inspection_pack
+  description: prepare psc inspection pack
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

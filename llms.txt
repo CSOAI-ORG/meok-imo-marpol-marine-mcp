@@ -1,0 +1,24 @@
+# meok-imo-marpol-marine-mcp
+
+> IMO MARPOL + marine fuel + container ship compliance MCP. MARPOL Annex VI, EU ETS maritime, CII, EEXI, IMDG, bunker fuel, ballast water, Port State Control. For short-sea operators, RoRo car carriers, Channel freight, container shipping. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- check_marpol_annex_compliance
+- check_eu_ets_maritime
+- check_imo_ccc_carbon_intensity
+- check_eexi_efficiency
+- check_imdg_code_dangerous_goods
+- check_bunker_compliance
+- check_ballast_water_management
+- prepare_psc_inspection_pack
+
+## Install
+```
+pip install meok-imo-marpol-marine-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/meok-imo-marpol-marine-mcp/
+- Docs: https://meok.ai

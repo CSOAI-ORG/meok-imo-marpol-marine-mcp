@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meok-imo-marpol-marine-mcp"
+version = "1.0.0"
+description = "IMO MARPOL + marine fuel + container ship compliance MCP. MARPOL Annex VI, EU ETS maritime, CII, EEXI, IMDG, bunker fuel, ballast water, Port State Control. For short-sea operators, RoRo car carriers, Channel freight, container shipping. By MEOK AI Labs."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Nicholas Templeman", email = "nicholas@meok.ai" }]
+keywords = ["mcp", "imo", "marpol", "maritime", "shipping", "marine-fuel", "eu-ets", "cii", "eexi", "imdg", "ballast-water", "port-state-control", "compliance", "meok"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Office/Business :: Financial",
+]
+dependencies = ["mcp[cli]>=1.3.0"]
+
+[project.urls]
+Homepage = "https://haulage.app"
+Repository = "https://github.com/CSOAI-ORG/meok-imo-marpol-marine-mcp"
+
+[project.scripts]
+meok-imo-marpol-marine-mcp = "server:main"
+
+[tool.setuptools]
+py-modules = ["server"]

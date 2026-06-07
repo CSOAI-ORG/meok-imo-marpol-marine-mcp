@@ -1,0 +1,26 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-imo-marpol-marine-mcp",
+    "description": "IMO MARPOL + marine fuel + container ship compliance MCP. MARPOL Annex VI, EU ETS maritime, CII",
+    "version": "1.0.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-imo-marpol-marine-mcp"
+      }
+    ],
+    "capabilities": [
+      "check_marpol_annex_compliance",
+      "check_eu_ets_maritime",
+      "check_imo_ccc_carbon_intensity",
+      "check_eexi_efficiency",
+      "check_imdg_code_dangerous_goods",
+      "check_bunker_compliance",
+      "check_ballast_water_management",
+      "prepare_psc_inspection_pack"
+    ]
+  }
+}
