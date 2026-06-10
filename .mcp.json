@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-imo-marpol-marine-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-imo-marpol-marine-mcp"
+      ]
+    }
+  }
+}
