@@ -1,0 +1,160 @@
+{
+  "name": "Meok Imo Marpol Marine Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-imo-marpol-marine-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "IMO MARPOL + marine fuel + container ship compliance MCP. MARPOL Annex VI, EU ETS maritime, CII, EEXI, IMDG, bunker fuel, ballast water, Port State Control. For short-sea operators, RoRo car carriers, Channel freight, container shipping. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "check_marpol_annex_compliance",
+      "name": "Check Marpol Annex Compliance",
+      "description": "Check Marpol Annex Compliance — a tool of the meok-imo-marpol-marine-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_eu_ets_maritime",
+      "name": "Check Eu Ets Maritime",
+      "description": "Check Eu Ets Maritime — a tool of the meok-imo-marpol-marine-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_imo_ccc_carbon_intensity",
+      "name": "Check Imo Ccc Carbon Intensity",
+      "description": "Check Imo Ccc Carbon Intensity — a tool of the meok-imo-marpol-marine-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_eexi_efficiency",
+      "name": "Check Eexi Efficiency",
+      "description": "Check Eexi Efficiency — a tool of the meok-imo-marpol-marine-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_imdg_code_dangerous_goods",
+      "name": "Check Imdg Code Dangerous Goods",
+      "description": "Check Imdg Code Dangerous Goods — a tool of the meok-imo-marpol-marine-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_bunker_compliance",
+      "name": "Check Bunker Compliance",
+      "description": "Check Bunker Compliance — a tool of the meok-imo-marpol-marine-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_ballast_water_management",
+      "name": "Check Ballast Water Management",
+      "description": "Check Ballast Water Management — a tool of the meok-imo-marpol-marine-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "prepare_psc_inspection_pack",
+      "name": "Prepare Psc Inspection Pack",
+      "description": "Prepare Psc Inspection Pack — a tool of the meok-imo-marpol-marine-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-imo-marpol-marine-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
